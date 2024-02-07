@@ -18,10 +18,16 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%; /* Take full width */
+  width: 100vw; /* Take full width */
   height: 100%; /* Adjust height considering the header */
   padding: 1rem; /* Adjust padding as needed */
   box-sizing: border-box;
+  background-color: aqua;
+}
+
+.about > * {
+  text-align: center; /* Center the text of direct children */
+  width: 100%; /* Ensure full width for children */
 }
 
 h1 {

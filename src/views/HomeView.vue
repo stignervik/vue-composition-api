@@ -24,10 +24,11 @@ export default {
   box-sizing: border-box;
 }
 
-h1 {
-  margin: 0;
-  /* Add more styling for your h1 element here */
+.home > * {
+  text-align: center; /* Center the text of direct children */
+  width: 100%; /* Ensure full width for children */
 }
+
 </style>
 
 

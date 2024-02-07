@@ -28,7 +28,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: #f8f8f8; /* Example background color */
+  background-color: transparent; /* Example background color */
   display: flex;
   justify-content: center;
   align-items: center;
